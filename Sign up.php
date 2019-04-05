@@ -16,7 +16,7 @@ $sql="INSERT INTO user(name,mail,password) values('$name','$mail','$password')";
 if($connect_mysql->query($sql) == TRUE)
 {
     echo("Insertion Successful");
-    header("Location:home1.php");
+    header("Location:Sign in.php");
 }
 else
 {

@@ -8,7 +8,7 @@
                 <a class="nav-link w-nav-link" href="videos1.php">Videos</a>
                 <a class="nav-link w-nav-link" href="music1.php">Music</a>
                 <a class="nav-link w-nav-link" href="tour1.php">Tour</a>
-                <a class="nav-link w-nav-link" href="Sign in.php">Sign Out</a>
+                <a class="nav-link w-nav-link" href="signout.php">Sign Out</a>
             </nav>
                 
             <div class="menu-button w-clearfix w-nav-button">
