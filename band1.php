@@ -41,11 +41,10 @@
     right: 0;
     width: 100%;
 }
-body{
-	background-image: url(img/back5.png);
+body {
+
+    background-image: url(img/back5.png);
     background-size: cover;
-    height: 100vh;
-    background-position: 0px 0px, 50% 50%;
     overflow: scroll;
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -18,12 +18,16 @@ a {
 	margin: 0 auto;
     width: 340px;
 }
-body{
-	background-image: url("img/back3.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	color: white;
+body {
+
+	background-image: url(img/back3.png);
+    background-size: cover;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
 }
+
 
 </style>
 </head>

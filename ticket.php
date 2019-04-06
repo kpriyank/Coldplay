@@ -12,11 +12,16 @@
     margin: 0 auto;
     width: 340px;
 }
-body{
-    background-image: url(img/music.png); 
+body {
+
+    background-image: url(img/music.png);
     background-size: cover;
-    color: black;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:black;
 }
+
 .credit-card-box .panel-title {
     display: inline;
     font-weight: bold;
@@ -153,7 +158,7 @@ body{
                                         type="tel" 
                                         class="form-control" 
                                         name="cardExpiry"
-                                        placeholder="MM / YY"
+                                        placeholder="MMYY"
                                         autocomplete="cc-exp"
                                         required 
                                     />

@@ -171,8 +171,8 @@ button.big {
 	<div class="hero-container w-container">
       <div class="hero-subtitle">OUR NEW ALBUMS</div>
       <h1 class="hero-heading" style="background: linear-gradient(to right,#E20D13, #F0E300, #A4C615, #4363AB,#BE4A94,#E30922);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" >A Head Full Of Dreams</h1>
-      <a class="big button w-button" href="music.php">Check it out</a>
-      <a class="big button w-button" href="tour.php">Watch us live</a>
+      <a class="big button w-button" href="music1.php">Check it out</a>
+      <a class="big button w-button" href="tour1.php">Watch us live</a>
     </div>
 
 </div>
