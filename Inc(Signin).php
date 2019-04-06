@@ -25,7 +25,7 @@ a {
     width: 340px;
 }
 label{
-	color: #0e0e0f;
+	color: white;
 }
 .bd1{
 
@@ -46,8 +46,9 @@ input{
 }
 body{
 	background-image: url("img/back4.png");
-	background-size: 100%;
+	background-size: auto;
 	background-repeat: no-repeat;
+	color: white;
 }
 .label-link{
 	margin-left: 7em;
@@ -100,8 +101,8 @@ p{
 	</form>
 	<p class="new">
 		"New to site"<i>
-		<a data-ga-click="Sign in, switch to sign up" href="Signup.php" style="color: #113559;">Create an account</a></i><br>OR<br><i>
-		<a href="home.php" style="color: #113559;">Skip Sign In</a></i>
+		<a data-ga-click="Sign in, switch to sign up" href="Signup.php" style="color: white;">Create an account</a></i><br>OR<br><i>
+		<a href="home.php" style="color: white;">Skip Sign In</a></i>
 	</p>
 </div>
 

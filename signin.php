@@ -17,7 +17,7 @@ if(count($_POST)>0){
 			$row = mysqli_fetch_assoc($ret);
 			if(is_array($row)) {
 
-				$_SESSION["mail"] = $row[mail];
+				$_SESSION["mail"] = $mail;
 				$_SESSION["password"] = $row[password];
 				$_SESSION['start'] = time();
 				$_SESSION['expire'] = $_SESSION['start'] + (20*60) ;

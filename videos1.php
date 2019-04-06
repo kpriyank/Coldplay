@@ -63,11 +63,15 @@ jQuery(document).ready(function($) {
     right: 0;
     width: 100%;
 }
-body{
-	background-image: url(img/music.png); 
+body {
+
+	   background-image: url(img/music.png);
     background-size: cover;
     height: 100vh;
     background-position: 0px 0px, 50% 50%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .content-wrapper {
     margin-top: 78px;

@@ -46,12 +46,17 @@ body{
     right: 0;
     width: 100%;
 }
-body{
-	background-image:url(img/music.png); 
+body {
+
+     background-image: url(img/music.png);
     background-size: cover;
     height: 100vh;
     background-position: 0px 0px, 50% 50%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 .content-wrapper {
     margin-top: 78px;
 }
@@ -212,7 +217,7 @@ body{
     width: 340px;
 }
 label{
-  color: #0e0e0f;
+  color: white;
 }
 .bd1{
 
@@ -454,7 +459,7 @@ input{
       </form>
       <p class="new" id="p">
         "New to site"<i>
-        <a data-ga-click="Sign in, switch to sign up" href="Signup.php" id="a" style="color: #2675ae;">Create an account</a></i>
+        <a data-ga-click="Sign in, switch to sign up" href="Signup.php" id="a" style="color: white;">Create an account</a></i>
       </p>
     </div>
 

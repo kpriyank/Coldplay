@@ -25,7 +25,7 @@ a {
     width: 340px;
 }
 label{
-	color: #0e0e0f;
+	color: white;
 }
 .bd1{
 
