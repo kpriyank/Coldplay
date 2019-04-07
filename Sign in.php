@@ -60,6 +60,29 @@ p{
 	color: #ffffffba;
 
 }
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.inc{
+	animation-name: shake;
+	animation-duration: 1s;
+	text-align: center;
+	color: red;
+}
 </style>
 </head>
 <body>
@@ -70,6 +93,12 @@ p{
 			<h1><b>Sign In</b></h1>
 		</div>
 		<div class="bd1">
+			<?php
+			    if(isset($_REQUEST["msg"])<>"")
+			    {
+			      echo 	"<h4 class='inc'>".$_REQUEST["msg"]."</h4>";
+			    }
+			 ?>
 			<label for="login">Email</label>
 			<input type="email" name="mai" id="login_field" class="form-control input-block" tabindex="1" autofocus="autofocus" required="Enter Email" placeholder="Enter Email ID" value="<?php 
 

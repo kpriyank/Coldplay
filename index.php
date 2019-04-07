@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>COLDPLAY</title>
+    <?php include "session.php";?>
 	<?php require_once "bootstrap.php";?>
 
 <style type="text/css">
@@ -167,7 +168,9 @@ button.big {
 
 <body>
 <div class="hed">
-	<?php require_once "navbar1.php";?>
+    <?php
+    include "navbar.php";
+    ?>
 	<div class="hero-container w-container">
       <div class="hero-subtitle">OUR NEW ALBUMS</div>
       <h1 class="hero-heading" style="background: linear-gradient(to right,#E20D13, #F0E300, #A4C615, #4363AB,#BE4A94,#E30922);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" >A Head Full Of Dreams</h1>

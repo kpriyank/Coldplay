@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>COLDPLAY</title>
+  <?php include "session.php";?>
 	<?php require_once "bootstrap.php";?>
   <?php require_once "bootstrap1.php";?>
 
@@ -271,7 +272,7 @@ input{
 </head>
 
 <body>
-	<?php require_once "navbar1.php";?>
+	<?php require_once "navbar.php";?>
 	<div class="content-wrapper w-container">
     <h1 class="page-title"><font style="vertical-align: inherit;background: linear-gradient(to right,#E20D13, #F0E300, #A4C615, #4363AB,#BE4A94,#E30922);-webkit-background-clip: text;-webkit-text-fill-color: transparent;/* color: transparent; */"><font style="vertical-align: inherit;  font-family: sans-serif;">WE'RE COMING TO YOUR CITY!</font></font>
     </h1>
@@ -459,7 +460,7 @@ input{
       </form>
       <p class="new" id="p">
         "New to site"<i>
-        <a data-ga-click="Sign in, switch to sign up" href="Signup.php" id="a" style="color: white;">Create an account</a></i>
+        <a data-ga-click="Sign in, switch to sign up" href="Signup.php" id="a" style="color: #2675ae;">Create an account</a></i>
       </p>
     </div>
 

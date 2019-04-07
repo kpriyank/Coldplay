@@ -40,7 +40,7 @@ body {
 		</div>
 		<div class="bd1" style="text-align: center; padding: 14%;">
 			<p style="padding-bottom: 10%;">Your transaction has been successfull. <br>Check your email for booking details.</P>
-			<a href="home1.php">Click here to goto Home Page.</a>  
+			<a href="index.php">Click here to goto Home Page.</a>  
 		</div>
 	</form>
 </div>

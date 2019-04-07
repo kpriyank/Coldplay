@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>COLDPLAY</title>
+    <?php include "session.php";?>
 	<?php require_once "bootstrap.php";?>
 
 <style type="text/css">
@@ -127,7 +128,7 @@ p {
 </head>
 
 <body>
-	<?php require_once "navbar1.php";?>
+	<?php require_once "navbar.php";?>
 	<div class="content-wrapper w-container">
     <h1 class="page-title"><font style="vertical-align: inherit; font-family: sans-serif;"><font style="vertical-align: inherit; background: linear-gradient(to right,#E20D13, #F0E300, #A4C615, #4363AB,#BE4A94,#E30922);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">How it all started</font></font></h1>
     <div class="w-richtext">

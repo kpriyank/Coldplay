@@ -10,7 +10,7 @@ if(count($_POST)>0){
 
 	$mail=$_POST['mai'];
 	$password=$_POST['pwd'];
-
+	$msg="";
 
 
 	$ret=mysqli_query( $connect_mysql, "SELECT * FROM user WHERE mail='$mail' AND password='$password' ") or die("Could not execute query: " .mysqli_error($conn));
@@ -26,7 +26,7 @@ if(count($_POST)>0){
 			}
 			else{
 				$message = "Invalid Username or Password!";
-				header("Location:Inc(Signin).php");
+				header("Location:Sign in.php?msg=Invalid Username or Password!");
 			}
 		}
 			if(isset($_SESSION["mail"])) {
@@ -34,6 +34,6 @@ if(count($_POST)>0){
 	            setcookie('password', $_POST['pwd'], time()+60);
 	            
 
-				header('location: home1.php');
+				header('location: index.php');
 		}
 ?>

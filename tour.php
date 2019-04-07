@@ -4,11 +4,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>COLDPLAY</title>
+  <?php include "session.php";?>
 	<?php require_once "bootstrap.php";?>
   <?php require_once "bootstrap1.php";?>
-
-
+  
 <style type="text/css">
+  <?php 
+                if(isset($_SESSION['mail']))
+                    {
+                         include "modal.css";
+                    }
+                    else{
+                      include "modal1.css";
+                    }
+    ?>
+
 body{
   color: white;
 }
@@ -86,74 +96,6 @@ body {
     border-bottom: 1px solid hsla(0, 0%, 100%, .3);
 }
 
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.65); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: max-content;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal-header {
-  padding-top: 20px;
-  background-color: #2675ae;
-  color: white;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
 
 
 @media screen and (max-width: 991px){
@@ -252,7 +194,7 @@ input{
 </head>
 
 <body>
-	<?php require_once "navbar1.php";?>
+	<?php require_once "navbar.php";?>
 	<div class="content-wrapper w-container">
     <h1 class="page-title"><font style="vertical-align: inherit;background: linear-gradient(to right,#E20D13, #F0E300, #A4C615, #4363AB,#BE4A94,#E30922);-webkit-background-clip: text;-webkit-text-fill-color: transparent;/* color: transparent; */"><font style="vertical-align: inherit;  font-family: sans-serif;">WE'RE COMING TO YOUR CITY!</font></font>
     </h1>
@@ -413,60 +355,17 @@ input{
       </div>
     </div>
 
+<?php 
+                if(isset($_SESSION['mail']))
+                    {
+                         include "modal.php";
+                    }
+                    else{
+                      include "modal1.php";
+                    }
+    ?>
 
 <!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close" style="margin-top: -18px;">&times;</span>
-      <h2 style="font-size: 23px;">Please Sign In To Buy Tickets</h2>
-    </div>
-
-    <div class="login">
-      <form action="tour(cor).php" method="POST">
-        <div class="head">
-          <h1 style="color: black;"><b>Sign In</b></h1>
-        </div>
-        <div class="bd1">
-          <label for="login">Email</label>
-          <input type="email" name="mai" id="login" class="form-control input-block" tabindex="1" autocapitalize="off" autocorrect="off" autofocus="autofocus" required="Enter Username" placeholder="Enter Email ID" value="<?php 
-
-              if (isset($_COOKIE['mail']) && isset($_COOKIE['password'])) {
-                echo $_COOKIE['mail'];
-              }
-              else
-              {
-                echo "";
-              }
-
-            ?>">
-          <label for="password">Password</label>
-          <input type="password" name="pwd" id="password" placeholder="Enter Password" class="form-control form-control input-block" tabindex="2" required="Enter Password" value="<?php 
-
-              if (isset($_COOKIE['mail']) && isset($_COOKIE['password'])) {
-                echo $_COOKIE['password'];
-              }
-              else
-              {
-                echo "";
-              }
-
-            ?>">
-          <input type="submit" name="commit" value="Sign in" tabindex="3" class="btn btn-primary btn-block" data-disable-with="Signing in…">
-        </div>
-      </form>
-      <p class="new" id="p">
-        "New to site"<i>
-        <a data-ga-click="Sign in, switch to sign up" href="Signup.php" id="a" style="color: #2675ae;">Create an account</a></i>
-      </p>
-    </div>
-
-  </div>
-
-</div>
-
   <?php require_once "footer.php";?>
 
 <script>
@@ -490,6 +389,105 @@ span.onclick = function() {
 }
 
 </script>
+<script type="text/javascript">
+  $(document).ready(function(){
 
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+            
+            $('#quantity').val(quantity + 1);
+
+            var t=Number(document.getElementById("quantity").value);
+            var r=Number(document.getElementById("quantty").value);
+            document.getElementById("myText").value=t*4000+r*9000;
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+
+            var t=Number(document.getElementById("quantity").value);
+            var r=Number(document.getElementById("quantty").value);
+            document.getElementById("myText").value=t*4000+r*9000;
+    });
+    
+});
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+var quatiy=0;
+   $('.quantity-right-plus1').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quanity = parseInt($('#quantty').val());
+        
+        // If is not undefined
+            
+           
+           $('#quantty').val(quanity + 1);
+            var t=Number(document.getElementById("quantity").value);
+            var r=Number(document.getElementById("quantty").value);
+            document.getElementById("myText").value=t*4000+r*9000;
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus1').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantty').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantty').val(quantity - 1);
+            }
+            var t=Number(document.getElementById("quantity").value);
+            var r=Number(document.getElementById("quantty").value);
+            document.getElementById("myText").value=t*4000+r*9000;
+    });
+    
+});
+</script>
+<script>
+function che()
+{
+  var to=Number(document.getElementById("myText").value);
+  if(to>0){
+    document.getElementById("tic").click();
+  }
+  else{
+    alert("Total amount should be greater than 0");
+  }
+}
+</script>
 </body>
 </html>

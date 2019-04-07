@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>COLDPLAY</title>
+	<?php include "session.php";?>
 	<?php require_once "bootstrap.php";?>
 	<?php require_once "bootstrap1.php";?>
     
@@ -181,7 +182,7 @@ body {
 </style>
 </head>
 <body>
-	<?php require_once "navbar1.php";?>
+	<?php require_once "navbar.php";?>
 	<div class="content-wrapper w-container">
     <h1 class="page-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit; background: linear-gradient(to right,#E20D13, #F0E300, #A4C615, #4363AB,#BE4A94,#E30922);-webkit-background-clip: text;-webkit-text-fill-color: transparent; font-family: sans-serif;">Videos</font></font></h1>
     </div>

@@ -10,7 +10,7 @@ if(count($_POST)>0){
 
 	$mail=$_POST['mai'];
 	$password=$_POST['pwd'];
-
+	$msg="";
 
 
 	$ret=mysqli_query( $connect_mysql, "SELECT * FROM user WHERE mail='$mail' AND password='$password' ") or die("Could not execute query: " .mysqli_error($conn));
@@ -34,6 +34,6 @@ if(count($_POST)>0){
 	            setcookie('password', $_POST['pwd'], time()+60);
 	            
 
-				header('location: tour1.php');
+				header('location: tour.php');
 		}
 ?>

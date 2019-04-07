@@ -10,14 +10,11 @@
     {
  
         session_destroy();
-        header("Location:signexp.php");
+        header("Location:Sign in.php?msg=Session expired sign in again!");
  
     }
 }
-else
-{
-	header("Location:Sign in.php");	
-}
+
  
     
  //starting this else one [else1]

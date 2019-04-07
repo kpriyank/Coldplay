@@ -13,14 +13,13 @@ $mail=$_POST['mail'];
 $password=$_POST['pwd1'];
 
 $sql="INSERT INTO user(name,mail,password) values('$name','$mail','$password')";
+
 if($connect_mysql->query($sql) == TRUE)
 {
-    echo("Insertion Successful");
-    header("Location:Sign in.php");
+        header("Location:Sign in.php");
 }
-else
-{
-    echo("Something went wrong");
-    header("Location:emailsignup.php");
+else {
+	header("Location:Signup.php?msg=Email ID already exist! Please try again");
 }
+
 ?>

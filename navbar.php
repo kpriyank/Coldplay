@@ -4,11 +4,22 @@
                 <img class="logo" src="img\logo1.png" style="width: 5%">
             </a>
             <nav class="nav-menu w-nav-menu" role="navigation" style="transform: translateY(0px) translateX(0px);">
-                <a class="nav-link w-nav-link" href="band1.php">Band</a>
-                <a class="nav-link w-nav-link" href="videos1.php">Videos</a>
-                <a class="nav-link w-nav-link" href="music1.php">Music</a>
-                <a class="nav-link w-nav-link" href="tour1.php">Tour</a>
-                <a class="nav-link w-nav-link" href="signout.php">Sign Out</a>
+                <a class="nav-link w-nav-link" href="band.php">Band</a>
+                <a class="nav-link w-nav-link" href="videos.php">Videos</a>
+                <a class="nav-link w-nav-link" href="music.php">Music</a>
+                <a class="nav-link w-nav-link" href="tour.php">Tour</a>
+                <?php 
+                if(isset($_SESSION['mail']))
+                    {
+                         echo '<a class="nav-link w-nav-link" href="signout.php">Sign Out</a>'; 
+                    }
+                    else{
+                    echo '<a class="nav-link w-nav-link" href="Sign in.php">Sign In</a>';
+                    }
+                ?>
+                
+                             
+                
             </nav>
                 
             <div class="menu-button w-clearfix w-nav-button">

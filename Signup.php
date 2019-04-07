@@ -106,6 +106,29 @@ p{
     height: 18px;
     background: url("img/logo.png");
 }
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.inc{
+  animation-name: shake;
+  animation-duration: 1s;
+  text-align: center;
+  color: red;
+}
 
 </style>
 </head>
@@ -117,6 +140,12 @@ p{
 			<h1><b>Sign Up</b></h1>
 		</div>
 		<div class="bd1">
+      <?php
+          if(isset($_REQUEST["msg"])<>"")
+          {
+            echo  "<h4 class='inc'>".$_REQUEST["msg"]."</h4>";
+          }
+       ?>
 			<label for="signup">Name</label>
 			<input type="text" name="first" id="first_name" class="form-control input-block"  placeholder="Enter Name" tabindex="0" autocapitalize="off" autocorrect="off" autofocus="autofocus" required="Name">
 			<label for="user">Email</label>
