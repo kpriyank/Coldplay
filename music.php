@@ -6,6 +6,7 @@
 	<title>COLDPLAY</title>
 	<?php include "session.php";?>
 	<?php require_once "bootstrap.php";?>
+	<?php require_once "bootstrap1.php"?>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://coldplay.com/wp-content/themes/ahfod/css/normalize.css">

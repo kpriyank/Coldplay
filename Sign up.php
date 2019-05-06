@@ -14,7 +14,7 @@ $password=$_POST['pwd1'];
 
 $sql="INSERT INTO user(name,mail,password) values('$name','$mail','$password')";
 
-if($connect_mysql->query($sql) == TRUE)
+if(mysqli_query($connect_mysql,$sql))
 {
         header("Location:Sign in.php");
 }

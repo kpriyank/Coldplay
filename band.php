@@ -44,7 +44,7 @@
 }
 body {
 
-    background-image: url(img/music.png);
+    background: linear-gradient(30deg,#000,#535050);
     background-size: cover;
     overflow: scroll;
     background-repeat: no-repeat;
