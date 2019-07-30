@@ -190,7 +190,7 @@ body {
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Fix You (Live In São Paulo).mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=k4V3Mo61fJM">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -203,7 +203,7 @@ body {
 					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Viva La Vida (Live In São Paulo).mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=-ZvsGmYKhcU">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -216,7 +216,7 @@ body {
 					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Miracles (Someone Special).mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=z9BPMjL44Aw">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -233,7 +233,7 @@ body {
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Something Just Like This (Tokyo Remix).mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=4u6bWs-ZG0o">
 						<div class="thumb videoThumb">
 							<div class="videoThumbImage">
 								<div class="hover"></div>
@@ -246,7 +246,7 @@ body {
 					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/A Head Full Of Dreams.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=vGZMvV9KBp8">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -259,7 +259,7 @@ body {
 					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Up&Up.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=BPNTC7uZYrI">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -276,7 +276,7 @@ body {
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Hymn For The Weekend.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=YykjpeuMNEk">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -285,11 +285,11 @@ body {
 							</div>	    							    
 							<div class="title">Hymn For The Weekend</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">February 5, 2016</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Birds.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=vqOnUB9gnDM">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -298,11 +298,11 @@ body {
 							</div>	    							    
 							<div class="title">Birds</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">January 2, 2016</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Adventure Of A Lifetime.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=QtXby3twMmI">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -311,15 +311,15 @@ body {
 							</div>	    							    
 							<div class="title">Adventure Of A Lifetime</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">November 29, 2015</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/A Sky Full Of Stars.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=VPRjCeoBqrI">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -328,11 +328,11 @@ body {
 							</div>	    							    
 							<div class="title">A Sky Full Of Stars</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">June 19, 2014</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Magic.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=Qtb11P1FWnc">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -341,11 +341,11 @@ body {
 							</div>	    							    
 							<div class="title">Magic</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">April 7, 2014</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Paradise.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=1G4isv_Fylg">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -354,15 +354,15 @@ body {
 							</div>	    							    
 							<div class="title">Paradise</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">October 18, 2011</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Life In Technicolor ii.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=fXSovfzyx28">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -371,11 +371,11 @@ body {
 							</div>	    							    
 							<div class="title">Life In Technicolor ii</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">January 20, 2009</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Lost!.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=Pkgeai985rA">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -384,11 +384,11 @@ body {
 							</div>	    							    
 							<div class="title">Lost!</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">November 10, 2008</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Lovers In Japan.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=OTFFQkdhw6Q">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -397,15 +397,15 @@ body {
 							</div>	    							    
 							<div class="title">Lovers In Japan</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">November 3, 2008</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Viva La Vida.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=dvgZkm1xWPE">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -414,11 +414,11 @@ body {
 							</div>	    							    
 							<div class="title">Viva La Vida</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">August 4, 2008</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Violet Hill.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=IakDItZ7f7Q">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -427,11 +427,11 @@ body {
 							</div>	    							    
 							<div class="title">Violet Hill</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">May 19, 2008</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Violet Hill (Dancing Politicians).mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=f8zKtcKCaG8">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -440,15 +440,15 @@ body {
 							</div>	    							    
 							<div class="title">Violet Hill (Dancing Politicians)</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">May 16, 2008</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/The Hardest Part.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=WAGbq3A9HfA">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -457,11 +457,11 @@ body {
 							</div>	    							    
 							<div class="title">The Hardest Part</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">April 6, 2006</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Talk.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=EH9meoWmAOM">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -470,11 +470,11 @@ body {
 							</div>	    							    
 							<div class="title">Talk</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">December 19, 2005</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Fix You.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=k4V3Mo61fJM">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -483,15 +483,15 @@ body {
 							</div>	    							    
 							<div class="title">Fix You</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">September 5, 2005</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Speed Of Sound.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=0k_1kvDh2UA">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -500,11 +500,11 @@ body {
 							</div>	    							    
 							<div class="title">Speed Of Sound</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">May 23, 2005</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/God Put A Smile Upon Your Face.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=qhIVgSoJVRc">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -513,11 +513,11 @@ body {
 							</div>	    							    
 							<div class="title">God Put A Smile Upon Your Face</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">July 14, 2003</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Clocks.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=d020hcWA_Wg">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -526,15 +526,15 @@ body {
 							</div>	    							    
 							<div class="title">Clocks</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">April 2, 2003</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/The Scientist.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=RB-RcX5DS5A">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -543,11 +543,11 @@ body {
 							</div>	    							    
 							<div class="title">The Scientist</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">November 4, 2002</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/In My Place.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=gnIZ7RMuLpU">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -556,11 +556,11 @@ body {
 							</div>	    							    
 							<div class="title">In My Place</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">August 5, 2002</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Don't Panic.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=yWeuUwpEQfs">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -569,15 +569,15 @@ body {
 							</div>	    							    
 							<div class="title">Don’t Panic</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">March 19, 2001</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
 		<div class="row">
 			
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Trouble.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=kcASPx3-HuI">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -586,11 +586,11 @@ body {
 							</div>	    							    
 							<div class="title">Trouble</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">October 23, 2000</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox" href="img/Yellow.mp4">
+					<a class="fancybox" href="https://www.youtube.com/watch?v=yKNxeF4KMsY">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -599,11 +599,11 @@ body {
 							</div>	    							    
 							<div class="title">Yellow</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">June 26, 2000</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 			<div class="col-md-4">
-					<a class="fancybox"  href="img/shiver.mp4">
+					<a class="fancybox"  href="https://www.youtube.com/watch?v=u8XFFTWwSvY">
 						<div class="thumb videoThumb">
 						    <div class="videoThumbImage">
 								<div class="hover"></div>
@@ -612,8 +612,8 @@ body {
 							</div>	    							    
 							<div class="title">Shiver</div>	
 							<div class="timestamp"><img src="http://coldplay.com/wp-content/themes/ahfod/images/clock.svg" height="11">March 6, 2000</div>
-							</div>
-						</a>
+						</div>
+					</a>
 			</div>
 		</div>
 
